@@ -4,10 +4,10 @@ import './App.css';
 const App = () => {
 
     const [cardList, setCardList] = useState([
-        {id: 1, order: 3, text: "CART n3"},
-        {id: 2, order: 1, text: "CART n1"},
-        {id: 3, order: 2, text: "CART n2"},
-        {id: 4, order: 4, text: "CART n4"},
+        {id: 1, order: 3, text: "CARD N3"},
+        {id: 2, order: 1, text: "CARD N1"},
+        {id: 3, order: 2, text: "CARD N2"},
+        {id: 4, order: 4, text: "CARD N4"},
     ])
     const [currentCard, setCurrentCard] = useState(null)
 
@@ -18,7 +18,7 @@ const App = () => {
     }
 
     function dragEndHandler(e) {
-        e.target.style.background = 'white'
+        e.target.style.background = 'antiquewhite'
     }
 
     function dragOverHandler(e) {
